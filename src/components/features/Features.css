@@ -1,0 +1,82 @@
+.features {
+    background-color: var(--aqua);
+    padding: var(--padcont);
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    gap: 3rem;
+}
+
+
+.f-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.f-left .img-container {
+    position: relative;
+}
+
+/* .f-left .img-container img {
+    position: absolute;
+} */
+
+.f-left .img-container img {
+    width: 250px;
+}
+
+
+.f-img2 {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
+.f-img3 {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+
+.f-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-cards {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.f-card {
+    background-color: white;
+    padding: 2rem;
+    font-size: 30px;
+    color: var(--green);
+    border-radius: 6px;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-card:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--green);
+}
+
+.f-card p {
+    font-size: 20px;
+
+}

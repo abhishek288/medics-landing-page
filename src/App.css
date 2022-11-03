@@ -1,0 +1,24 @@
+.btn {
+  padding: 0.8rem 1.2rem;
+  border-style: none;
+  border-radius: 4px;
+  background-color: var(--green);
+  color: var(--aqua);
+  cursor: pointer;
+
+}
+
+.sec-title {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container {
+  margin: 0 6rem;
+  display: flex;
+}

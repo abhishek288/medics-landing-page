@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--green);
+
+    padding: 4rem 6rem;
+    display: flex;
+
+}
+
+.foo-left img {
+    width: 6rem;
+}
+
+.foo-left {
+    flex: 1;
+}
+
+.foo-right {
+    flex: 1;
+    display: flex;
+    
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    /* flex-direction: column; */
+    gap: 2rem;
+}
+.foo-right a {
+    color: white;
+}

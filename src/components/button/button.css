@@ -1,0 +1,11 @@
+.download {
+    display: flex;
+    gap: 2rem;
+}
+
+.b-btn {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

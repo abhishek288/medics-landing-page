@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: var(--paddef);
+    flex: 1;
+    box-shadow: 0px 14px 32px 0px var(--aqua);
+
+}
+
+.n-left {
+    flex: 2;
+}
+
+.n-logo {
+    height: 3rem;
+}
+
+.n-right {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.n-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+}
+.n-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.n-list li a:hover {
+    border-bottom: 2px;
+    border-bottom-color: var(--green);
+    color: var(--green);
+    border-bottom-style: solid;
+    cursor: pointer;
+
+}
+
+.n-btn:hover {
+    background-color: var(--aqua);
+    color: var(--green);
+    border-color: var(--green);
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+
+}

@@ -1,0 +1,63 @@
+.working {
+    padding: var(--padcont);
+    
+}
+
+.working-container {
+    position: relative;
+}
+
+.working .w-centre {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    
+
+}
+
+.working .w-side{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    column-gap: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+
+.working .card {
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    background-color: white;
+    padding: 4rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: 20rem;
+
+}
+
+.working .card:hover {
+    color: white;
+    background-color: var(--green);
+}
+
+.working .card:hover .card-num {
+    color: var(--green);
+    background-color: white;
+}
+
+.working .card-num {
+    color: white;
+    background-color: var(--green);
+    display: inline;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 10rem;
+}

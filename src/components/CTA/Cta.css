@@ -1,0 +1,48 @@
+.cta {
+    background-color: var(--aqua);
+    display: flex;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.cta-container{
+
+    justify-content: space-between;
+}
+
+.c-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.c-left h6 {
+    font-size: 3rem;
+}
+
+.c-left span {
+    color: var(--green);
+}
+
+.c-right {
+    flex: 1;
+ 
+    position: relative;
+}
+
+.cta .img1 {
+    transform: rotateZ(-160deg);
+    position: absolute;
+    top: -14rem;
+    left: 40rem;
+}
+
+.cta .img2 {
+    position: absolute;
+    transform: rotateZ(20deg);
+    left: 10rem;
+    top: 10rem;
+}
+
