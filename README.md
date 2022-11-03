@@ -5,9 +5,6 @@ Landing page for a app medics where patient consult with doctors through video c
 ### Deployed on 
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
-### Screenshot
-![Home Page](./homepage.png)
-
 ### Buy me Coffee
 [![](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/virendrakhorwal)
 
